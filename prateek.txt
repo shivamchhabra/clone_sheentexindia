@@ -1,0 +1,7 @@
+home page
+services (galary)
+about us
+trade show
+contact us (form)=>(Name email phone no query) backend
+navbar gmaps footer 
+bootstap
