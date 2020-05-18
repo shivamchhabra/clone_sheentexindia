@@ -23,7 +23,7 @@ const navSlide = () => {
 navSlide();
 var nav = document.getElementById("header");
 window.onscroll = function () {
-  if (window.pageYOffset > 100) {
+  if (window.pageYOffset > 10) {
     nav.style.background = "black";
   } else {
     nav.style.background = "transparent";

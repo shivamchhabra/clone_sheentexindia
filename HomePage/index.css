@@ -13,7 +13,8 @@ body {
   width: 100%;
   height: 8vh;
   min-height: 50px;
-  transition: 1s ease;
+  transition: 0.5s ease;
+  z-index: 1;
 }
 
 nav {
@@ -73,13 +74,7 @@ nav {
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 1024px) {
-  .nav-links {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   body {
     overflow-x: hidden;
   }
@@ -103,6 +98,12 @@ nav {
   .burger {
     display: block;
     cursor: pointer;
+  }
+  #frontimage {
+    z-index: -1;
+  }
+  .lowe h2 {
+    z-index: -1;
   }
 }
 
@@ -140,6 +141,21 @@ nav {
 .lowe img {
   width: 100%;
   height: 100%;
+}
+.lowe h2 {
+  position: absolute;
+  top: 30vh;
+  left: 15vh;
+  color: burlywood;
+  font-size: 10vh;
+}
+#frontimage {
+  padding-top: 5px;
+  position: absolute;
+  top: 40vh;
+  left: 50vh;
+  width: 20vh;
+  height: 20vh;
 }
 
 .about {
@@ -206,7 +222,12 @@ mark {
   align-items: center;
   justify-content: center;
 }
-
+#img2 {
+  border: 3px solid grey;
+}
+#img3 {
+  border: 3px solid grey;
+}
 .darkcol {
   padding: 0;
 }
@@ -297,9 +318,100 @@ mark {
   width: 420px;
   height: 420px;
 }
-
+footer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(27, 27, 27);
+  bottom: 0px;
+}
+.upfooter {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.upfooter p {
+  color: white;
+  font-size: 24px;
+  padding: 20px 20px 20px 20px;
+}
+.mainfooter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(27, 27, 27);
+  justify-content: space-around;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  padding: 30px 30px 30px 30px;
+  color: whitesmoke;
+  align-content: center;
+}
+.box p {
+  font-size: 16px;
+}
+.box hr {
+  width: 50%;
+  border: 2px solid orange;
+}
+.box img {
+  height: 50px;
+  width: 50px;
+  padding: 10px 10px 10px 10px;
+}
+.middle {
+  justify-content: space-around;
+  align-content: center;
+}
+.middle ul li {
+  list-style: none;
+  padding-top: 10px;
+}
+.middle ul li a {
+  color: whitesmoke;
+  padding: 10px 10px 10px 10px;
+}
+.middle ul li a:hover {
+  color: orange;
+}
 .bottom {
   height: 1000px;
   width: 100%;
   background-color: white;
+}
+
+.ccc {
+  background-color: rgb(27, 27, 27);
+}
+
+.box ul {
+  padding-top: 10px;
+}
+.right ul {
+  list-style: none;
+}
+.right ul li {
+  padding-bottom: 10px;
+}
+.right ul li img {
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+.bottomfooter {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: whitesmoke;
+}
+.bottomfooter p {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.bottomfooter hr {
+  border: 1px solid grey;
 }
