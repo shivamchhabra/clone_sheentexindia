@@ -1,0 +1,425 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+</head>
+
+<style>
+*{
+    font-family:'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+}
+section{
+  display: block;
+}
+section{
+  padding-Bottom: 160px;
+  padding-top: 70px;
+}
+.sec2{
+    background-image: url("5.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.sec2 p {
+  background-color:rgb(250, 215, 221);
+}
+.sec4{
+    background-image: url("6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/*nav*/
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 8vh;
+  min-height: 50px;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  min-height: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+  
+}
+
+.logo {
+  color: rgb(223, 219, 219);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  display: flex;
+  vertical-align: middle;
+  padding-left: 5vh;
+}
+
+.logo img {
+  width: 10vh;
+  height: 8vh;
+}
+.logo h3 {
+  font-family: 'Josefin Sans';
+  padding-top: 2vh;
+  font-size: 4vh;
+  font-weight: bolder;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: honeydew;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.burger {
+  display: none;
+  
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(223, 219, 219);
+  margin: 5px;
+  transition: all 0.3s ease;
+  
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .logo h3 {
+    padding-top: 2vh;
+    font-size: 14px;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/*nav*/
+/*footer*/
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(27, 27, 27);
+  bottom: 0px;
+}
+.upfooter {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.upfooter p {
+  color: white;
+  font-size: 24px;
+  padding: 20px 20px 20px 20px;
+}
+.mainfooter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(27, 27, 27);
+  justify-content: space-around;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  padding: 30px 30px 30px 30px;
+  color: whitesmoke;
+  align-content: center;
+}
+.box p {
+  font-size: 16px;
+}
+.box hr {
+  width: 50%;
+  border: 2px solid orange;
+}
+.box img {
+  height: 50px;
+  width: 50px;
+  padding: 10px 10px 10px 10px;
+}
+.middle {
+  justify-content: space-around;
+  align-content: center;
+}
+.middle ul li {
+  list-style: none;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.middle ul li a {
+  color: whitesmoke;
+  padding: 10px 10px 10px 10px;
+}
+.middle ul li a:hover {
+  color: orange;
+}
+.bottom {
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+}
+
+.ccc {
+  background-color: rgb(27, 27, 27);
+}
+
+.box ul {
+  padding-top: 10px;
+}
+.right ul {
+  list-style: none;
+}
+.right ul li {
+  padding-bottom: 10px;
+}
+.right ul li img {
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+.bottomfooter {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: whitesmoke;
+}
+.bottomfooter p {
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.bottomfooter hr {
+  border: 1px solid grey;
+}
+/*footer*/
+</style>
+
+  <nav>
+    <div class="logo">
+      <h3>Sheen TexIndia</h3>
+      <img src="logom.png" alt="logo" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT US</a></li>
+      <li><a href="#">OUR SERVICES</a></li>
+      <li><a href="#">TRADE SHOW</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  
+  </nav>
+
+<section class="sec1">
+    <div class="container-fluid">
+        <div class="view" style="background-image: url('2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; ">
+            <div class="mask rgba-black-light align-items-center"></div>
+                  <div class="col-md-12 mb-4 white-text text-center">
+                    <h1 class="h1-reponsive white-text font-weight-bold mb-0 pt-md-5 pt-5 "><strong>About-us</strong></h1>
+                    <hr class="hr-light my-4">
+                    <h5 class="text-uppercase mb-4 white-text" ><strong>SHEEN TEX INDIA</strong></h5>
+            </div>
+            </div>
+            </div>
+            </div>
+</section>
+<section class="sec2">
+    <div class="container">
+        <div class="jumbotron">
+          <h1>WELCOME TO SHEEN TEX INDIA</h1>   
+              <h2>Feel The Real Shine of Textiles</h2>   
+          <p>The company is a dream accomplishment of <i>Mr. Manoj Kumar</i> and Under his visionary leadership the company continues to evolve as a major industry player. Our Business journey began 23 years ago with a very clear vision for who we wanted to be and what we wanted to achieve.
+                  Sheen Tex has positioned herself as an integrated multi product and multi market player covering almost all the activities of textile value chain.
+                  We are in a continuous process of expansion, enhancement and incorporating the latest technological innovations in order to ensure our customers the best possible quality in Home Textile. Our greatest emphasis has been the establishment of long term business relations and we always work towards it.</p>
+        </div>
+        <div>
+        <hr class="w-25 mx-auto">
+</section>
+<section>
+    <figure class="figure">
+        <img src="main.jpg" class="figure-img img-fluid rounded" >
+        <figcaption class="figure-caption text-right">Sheen Tex India..</figcaption>
+      </figure>
+</section>
+</section>
+<section id="project-sec"class="sec3">
+  <div class="container">
+  <h2 class="text-center">OUR VISION & MISSION</h2>
+  <h3 class="text-center">We are Sheen Tex Team.</h3>
+  <div class="card-columns">
+    <div class="card bg-dark text-white">
+      <div class="card-body text-center">
+        <p class="card-text">OUR MISSION<br><br>It is our continuous Endeavor to be a trusted advisory to our clients, helping them achieve their goals and take this cpmpany to heights.</p><br>
+      </div>
+    </div>
+    <div class="card bg-dark text-white">
+      <div class="card-body text-center">
+        <p class="card-text">OUR OBJECTIVE<br><br> To serve our clients with utmost dedication and sincerity so that we exceed their expectations and make enduring interactions.<br></p><br>
+      </div>
+    </div>
+    <div class="card bg-dark text-white">
+      <div class="card-body text-center">
+        <p class="card-text">OUR AIM<br><br>To offer unparalleled quality of service through complete knowledge of products, constant innovation in services and use of the latest technology.</p><br>
+      </div>
+    </div> 
+  </div>
+  <hr class="w-25 mx-auto ">
+  </div>
+</section>
+</section>
+<section class="sec4">
+    <div class="container">
+        <div class="jumbotron">
+          <h1>QUALITY POLICY</h1>   
+              <h2>Touch The Real Shine of Textiles</h2>   
+          <p>Quality is of foremost importance for our company. Our team is focused and works with full dedication to provide the best quality products. We offer trend setter designs and best quality products to ensure complete customer satisfaction. We facilitate regular in-house quality checks by skilled professionals. Fully equipped labs and independent QA team test very stage starting from raw material to end process.
+
+            Capable of performing all major tests for fabric and yarn specification, strength, shrinkage, color performance and other physical & chemical aspects. Also the products are tested at third party laboratories for special tests and maintenance of color continuity records for quality control. Internal Controls through formal Quality Management System (QMS), random audits and training.</p>
+        </div>
+        <div>
+        <hr class="w-25 mx-auto">
+</section>
+
+    <footer>
+        <div class="upfooter">
+          <p>SHEEN TEX TEXTILES</p>
+        </div>
+        <div class="mainfooter">
+          <div class="box">
+            <h3>ABOUT US</h3>
+            <hr />
+            <p>
+              Sheen Tex Textiles is the pioneer of the textile-industry of India
+              and the prime choice of many Foreign Retailers. We are in a
+              continuous process of expansion, enhancement and incorporating the
+              latest technological innovations in order to ensure our customers
+              the best possible quality in Home Textile.
+            </p>
+            <img src="link.png" alt="linkedin" />
+            <img src="insta.png" alt="linkedin" />
+            <img src="FB.png" alt="linkedin" />
+          </div>
+          <div class="middle box">
+            <h3>Quick Links</h3>
+            <hr />
+            <ul>
+              <li>
+                <a href="#">HOME</a>
+              </li>
+  
+              <li>
+                <a href="#">ABOUT US</a>
+              </li>
+  
+              <li>
+                <a href="#">OUR SERVICES</a>
+              </li>
+  
+              <li>
+                <a href="#">OUR PRODUCTS</a>
+              </li>
+              <li>
+                <a href="#">TRADE SHOW</a>
+              </li>
+            </ul>
+          </div>
+          <div class="right box">
+            <h3>CONTACT US</h3>
+            <hr />
+            <ul>
+              <li>
+                <img src="location.png" />Plot No. 190-191, Sector 25, Part 2,
+                Panipat - 132103
+              </li>
+              <li><img src="phone.png" />+91-9896318228</li>
+              <li><img src="email.png" />info@sheentexindia.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottomfooter">
+          <hr />
+          <p>COPYRIGHT FROM SHIVAM_CHHABRA AND PRATEEK_MIGLANI</p>
+        </div>
+      </footer>
+     <script src="app.js"></script>
