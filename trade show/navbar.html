@@ -1,0 +1,109 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <style>
+    * {
+      font-family: "Josefin Sans", sans-serif;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+    nav-link:hover {
+      color: floralwhite !important;
+    }
+
+    section {
+      min-height: 100vh;
+      display: block;
+    }
+
+    section {
+      padding-top: 150px;
+    }
+
+    .button {
+      border-radius: 2px;
+      background-color: #f4511e;
+      border: none;
+      color: #ffffff;
+      text-align: center;
+      font-size: 12px;
+      padding: 10px;
+      width: 120px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 4px;
+    }
+
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button span:after {
+      content: "\00bb";
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button:hover span {
+      padding-right: 25px;
+    }
+
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about-sec"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project-sec">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-sec">Contact me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#more-sec">More</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>

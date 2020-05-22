@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+#page {
+  color: orange;
+}
+
 /*nav*/
 .header {
   position: fixed;
@@ -51,7 +55,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 50%;
 }
 .nav-links li {
   list-style: none;
@@ -101,6 +105,14 @@ nav {
 
   .nav-links li {
     opacity: 0;
+  }
+
+  .nav-links a {
+    color: honeydew;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
   }
   .burger {
     display: block;
@@ -345,7 +357,7 @@ footer {
   justify-content: space-around;
 }
 .box {
-  width: 400px;
+  width: 500px;
   height: 400px;
   padding: 30px 30px 30px 30px;
   color: whitesmoke;

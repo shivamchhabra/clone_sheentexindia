@@ -1,0 +1,218 @@
+//html starting//
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="tradeshow.css" />
+
+</head>
+
+
+<body>
+
+   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <div class="header" id="header">
+        <nav>
+          <div class="logo">
+            <h3>Sheen TexIndia</h3>
+            <img src="logom.png" alt="logo" />
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li>
+              <a href="#">OUR SERVICES</a>
+            </li>
+            <li>
+              <a href="#">TRADE SHOW</a>
+            </li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </div>
+    
+    <section class="sec1" data-aos="zoom-in" data-aos-duration="2000">
+
+        <div class="container-fluid">
+            <img src="7.jpg" class="img-fluid"><br><br>
+            <h1><pre>T R A D E   S H O W</pre><pre>" our creative process "</pre></h1>
+                </div>
+                </div>
+    </section>
+    <section class="sec2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <h2>Swipe Right >>>>></h2>
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="9.jpg"  style="width:500px;height:600px;" alt="First slide">
+                <div class="carousel-caption">
+                    <h3 style="color:black;">DOMOTEX</h3>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="8.jpg" style="width:500px;height:600px;"alt="Second slide">
+                <div class="carousel-caption">
+                    <h3 style="color:black;">HEIMTEXTIL</h3>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="10.JPG" style="width:500px;height:600px;" alt="Third slide">
+                <div class="carousel-caption">
+                    <h3>IHGF TEXTILE SHOW</h3>
+
+                  </div>
+              </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="11.jpg" style="width:500px;height:600px;" alt="fourth slide">
+                <div class="carousel-caption">
+                    <h3>TEXTILE INDIA GERMANY</h3>
+                  </div>
+              </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+    <section class="sec3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                    <img src="9.jpg" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6" >
+                  <h2 class="text-center"><pre>D O M O T E X</pre></h2><br>
+                  <p>The world’s leading trade fair for floor coverings features a new exhibition and hall layout, amended exhibition days as well as the introduction of an annual lead theme. DOMOTEX’s superior keynote theme “UNIQUE YOUNIVERSE“ displays both the trend towards self-determination and the desire for individualisation – this development also leads to products and services becoming increasingly personalised. Thus DOMOTEX hall 9 will be home to the multi-facetted “Framing Trends“ experience realm, in which exhibitors, companies from the interior design sector, students and artists will be presenting their highly creative special exhibits inspiringly dealing with the topic of individualisation.</p>
+                  </div>
+                  </div>
+                  </div>
+                  </section>
+    <section class="sec4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                    <img src="8.jpg" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6" >
+                    <h2 class="text-center"><pre>H E I M T E X T I L</pre></h2><br>
+                    <p>Heimtextil in Frankfurt, Germany is an international trade fair for home and contract textiles with more than 2,700 exhibitors and roughly 67,000 trade visitors. Throughout the four days of the event in mid-January, the trade fair serves as a business and information platform for manufacturers, retailers and designers from around the world. The next edition takes place from 10 to 13 January 2017. International exhibitors present their products to a wide trade audience on the Messe Frankfurt exhibition grounds. As the first marketing and ordering event of the year, Heimtextil showcases new home and contract textiles. By presenting bed, bath and table linens as well as floor, Heimtextil covers the entire home and household textiles portfolio from across the globe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+                <section class="sec5">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                            <img src="10.JPG" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-md-6" >
+                            <h2 class="text-center"><pre>I H G F</pre></h2><br>
+                            <p>The five power packed days with over 3,000 exhibitors, spread over 1,97,000 sq. Metres area, brings you an entire range of Home, Lifestyle & fashion, with traditional artistic finish in perfect harmony with modern designs & contemporary colours. IHGF Delhi Fair Spring is a distinctive business platform for importers, wholesalers, distributors, retailers, fashion designers, potential franchises, mail order companies and a few more to source an unparalleled variety of handicrafts, gifts & lifestyle products, from a cross section of handmade manufacturers from India.</p>
+                            </div>
+                            </div>
+                            </div>
+                            </section>
+                            <section class="sec6">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                                        <img src="12.jpg" class="img-fluid" style="width:700px;height:450px;">
+                                    </div>
+                                    <div class="col-12 col-md-6" >
+                                        <h2 class="text-center"><pre>T E X T I L E  I N D I A</pre></h2>
+                                        <p>TEXTILE INDIA
+                                        A mega exhibition that will showcase the value chain of India. The aim is to position Textiles India as a mega Annual International Event bringing global & Indian leaders together on one platform. Showcase India’s strength in the entire gamut of textile and apparel value chain, from farm to fibre to fabric to fashion. Establish India as a global sourcing and investment destination. A mega exhibition that will showcase the value chain of india. The aim is to position Textile India as a mega Annual International Event bringing global.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="upfooter">
+              <p>SHEEN TEX TEXTILES</p>
+            </div>
+            <div class="mainfooter">
+              <div class="box">
+                <h3>ABOUT US</h3>
+                <hr />
+                <p>
+                  Sheen Tex Textiles is the pioneer of the textile-industry of India
+                  and the prime choice of many Foreign Retailers. We are in a
+                  continuous process of expansion, enhancement and incorporating the
+                  latest technological innovations in order to ensure our customers
+                  the best possible quality in Home Textile.
+                </p>
+                <img src="link.png" alt="linkedin" />
+                <img src="insta.png" alt="linkedin" />
+                <img src="FB.png" alt="linkedin" />
+              </div>
+              <div class="middle box">
+                <h3>Quick Links</h3>
+                <hr />
+                <ul>
+                  <li>
+                    <a href="#">HOME</a>
+                  </li>
+      
+                  <li>
+                    <a href="#">ABOUT US</a>
+                  </li>
+      
+                  <li>
+                    <a href="#">OUR SERVICES</a>
+                  </li>
+      
+                  <li>
+                    <a href="#">OUR PRODUCTS</a>
+                  </li>
+                  <li>
+                    <a href="#">TRADE SHOW</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="right box">
+                <h3>CONTACT US</h3>
+                <hr />
+                <ul>
+                  <li>
+                    <img src="location.png" />Plot No. 190-191, Sector 25, Part 2,
+                    Panipat - 132103
+                  </li>
+                  <li><img src="phone.png" />+91-9896318228</li>
+                  <li><img src="email.png" />info@sheentexindia.com</li>
+                </ul>
+              </div>
+            </div>
+            <div class="bottomfooter">
+              <hr />
+              <p>COPYRIGHT FROM SHIVAM_CHHABRA AND PRATEEK_MIGLANI</p>
+            </div>
+          </footer>
+    </body>
+    <script src="app.js"></script>
+</html>
+
+//html ending
+
+                                        

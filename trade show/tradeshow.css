@@ -1,14 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
   font-family: "Josefin Sans", sans-serif;
   scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  background-color: whitesmoke;
-  font-family: "Josefin Sans";
   overflow-x: hidden;
 }
 section {
@@ -28,6 +20,7 @@ section {
   margin-top: 0px;
   color: black;
 }
+
 .sec2 h3 {
   text-align: center;
   color: white;
@@ -57,6 +50,20 @@ section {
   font-size: 55px;
   color: black;
 }
+h2 pre {
+  background-color: tomato;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+  font-family: "Josefin Sans";
+  overflow-x: hidden;
+}
 
 /*nav*/
 .header {
@@ -66,6 +73,7 @@ section {
   height: 8vh;
   min-height: 50px;
   transition: 0.5s ease;
+
   z-index: 1;
 }
 
@@ -75,9 +83,8 @@ nav {
   align-items: center;
   height: 8vh;
   min-height: 50px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: black;
-  z-index: 4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .logo {
@@ -102,7 +109,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 50%;
 }
 .nav-links li {
   list-style: none;
@@ -121,8 +128,8 @@ nav {
 }
 
 .burger div {
-  width: 25px;
-  height: 3px;
+  width: 35px;
+  height: 5px;
   background-color: rgb(223, 219, 219);
   margin: 5px;
   transition: all 0.3s ease;
@@ -148,7 +155,13 @@ nav {
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    z-index: 4;
+  }
+  .nav-links a {
+    color: honeydew;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
   }
 
   .nav-links li {
@@ -185,9 +198,44 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+.lowe {
+  width: 100%;
+  height: 100vh;
+  background-color: wheat;
+  background-size: cover;
+}
+#banner {
+  width: 100%;
+  height: 100%;
+}
+.lowe h2 {
+  position: absolute;
+  top: 30vh;
+  left: 15vh;
+  color: burlywood;
+  font-size: 10vh;
+}
+.wrapname {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 30vh;
+  left: 10vh;
+  text-align: right;
+  align-content: center;
+}
+.wrapname h3 {
+  font-size: 65px;
+  color: wheat;
+}
+.wrapname img {
+  height: 15vh;
+  width: 15vh;
+}
 /*nav*/
 
 /*footer*/
+
 footer {
   width: 100%;
   height: auto;
@@ -288,3 +336,6 @@ footer {
   border: 1px solid grey;
 }
 /*footer*/
+#page {
+  color: orange;
+}

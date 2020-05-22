@@ -15,8 +15,8 @@ const navSlide = () => {
     });
     burger.classList.toggle("toggle");
   });
+
   //animate links
-  console.log("working");
 };
 
 navSlide();
@@ -25,6 +25,6 @@ window.onscroll = function () {
   if (window.pageYOffset > 10) {
     nav.style.background = "black";
   } else {
-    nav.style.background = "black";
+    nav.style.background = "transparent";
   }
 };
