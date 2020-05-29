@@ -595,19 +595,19 @@ ul {
 
 @media screen and (max-width: 1000px) {
   .box p {
-    font-size: 12px;
+    font-size: 24px;
     text-decoration: none;
   }
   .middle ul li a {
-    font-size: 12px;
+    font-size: 24px;
   }
 
   .right ul li {
-    font-size: 12px;
+    font-size: 24px;
   }
 
   .bottomfooter p {
-    font-size: 12px;
+    font-size: 36px;
   }
 }
 /*footer*/

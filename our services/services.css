@@ -238,7 +238,7 @@ nav {
   align-content: center;
   padding: 10px 10px 10px 10px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .auto {
     width: 100%;
     height: 520px;
