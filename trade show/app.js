@@ -13,6 +13,7 @@ const navSlide = () => {
         index / 5 + 0.5
       }s`;
     });
+    console.log("working");
     burger.classList.toggle("toggle");
   });
 

@@ -65,7 +65,6 @@ body {
   overflow-x: hidden;
 }
 
-/*nav*/
 .header {
   position: fixed;
   top: 0px;
@@ -128,8 +127,8 @@ nav {
 }
 
 .burger div {
-  width: 35px;
-  height: 5px;
+  width: 30px;
+  height: 3px;
   background-color: rgb(223, 219, 219);
   margin: 5px;
   transition: all 0.3s ease;
@@ -252,6 +251,7 @@ footer {
   font-size: 24px;
   padding: 20px 20px 20px 20px;
 }
+
 .mainfooter {
   display: flex;
   flex-wrap: wrap;
@@ -261,25 +261,60 @@ footer {
   background-color: rgb(27, 27, 27);
   justify-content: space-around;
 }
+
+@media screen and(max-width:1000px) {
+  .mainfooter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    justify-content: space-around;
+  }
+}
 .box {
-  width: 400px;
+  width: 380px;
   height: 400px;
-  padding: 30px 30px 30px 30px;
   color: whitesmoke;
   align-content: center;
+  overflow: hidden;
+  text-decoration: none;
 }
+
 .box p {
-  font-size: 16px;
+  font-size: 20px;
+  color: gray;
 }
 .box hr {
   width: 50%;
   border: 2px solid orange;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .box img {
   height: 50px;
   width: 50px;
   padding: 10px 10px 10px 10px;
 }
+
+@media screen and (max-width: 1000px) {
+  .box {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    padding: 30px 30px 30px 30px;
+    color: whitesmoke;
+    align-content: center;
+  }
+
+  .box p {
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
 .middle {
   justify-content: space-around;
   align-content: center;
@@ -291,22 +326,16 @@ footer {
 }
 .middle ul li a {
   color: whitesmoke;
-  padding: 10px 10px 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-decoration: none;
 }
 .middle ul li a:hover {
   color: orange;
 }
-.bottom {
-  height: 1000px;
-  width: 100%;
-  background-color: white;
-}
 
-.ccc {
-  background-color: rgb(27, 27, 27);
-}
-
-.box ul {
+ul {
   padding-top: 10px;
 }
 .right ul {
@@ -314,6 +343,8 @@ footer {
 }
 .right ul li {
   padding-bottom: 10px;
+  font-size: 20px;
+  text-align: start;
 }
 .right ul li img {
   width: 40px;
@@ -328,14 +359,34 @@ footer {
   color: whitesmoke;
 }
 .bottomfooter p {
-  font-size: 16px;
+  font-size: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
+  color: grey;
 }
 .bottomfooter hr {
   border: 1px solid grey;
 }
+
+@media screen and (max-width: 1000px) {
+  .box p {
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .middle ul li a {
+    font-size: 12px;
+  }
+
+  .right ul li {
+    font-size: 12px;
+  }
+
+  .bottomfooter p {
+    font-size: 12px;
+  }
+}
 /*footer*/
+
 #page {
   color: orange;
 }
